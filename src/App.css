@@ -1,0 +1,12 @@
+nav a {
+    padding: 1rem;
+}
+
+nav .active {
+    font-weight: bold;
+    color: hotpink;
+}
+
+.show-link {
+    cursor: pointer;
+}

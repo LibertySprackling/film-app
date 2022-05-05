@@ -2,6 +2,7 @@ import React from "react";
 import { Routes, Route } from 'react-router-dom';
 import { default as Layout } from './layouts';
 import * as Pages from './pages';
+import './App.css';
 
 
 const App = () => {
@@ -11,7 +12,7 @@ const App = () => {
                    <Route path="/about" element={<Pages.AboutPage />}/>
                    <Route path="/search">
                         <Route path="/search" element={<Pages.SearchPage />}/>
-                        <Route path=":id" element={<Pages.WorkPage />}/>
+                        <Route path=":name" element={<Pages.WorkPage />}/>
                     </Route> 
                     <Route path="*" element={<Pages.NotFoundPage />}/>
                 </Route>
