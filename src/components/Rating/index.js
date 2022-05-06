@@ -5,9 +5,9 @@ const Rating = ({ rating }) => {
     const numericRating = parseInt(rating);
 
     if (rating !== null && numericRating>0) {
-        return <h5>{"⭐ ".repeat(numericRating)}</h5>
+        return <p>{"⭐ ".repeat(numericRating)}</p>
     } else {
-        return <h5>No rating available</h5>
+        return <p>No rating available</p>
     }
 
 }

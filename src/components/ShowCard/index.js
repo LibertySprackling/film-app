@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Rating } from '../'
+import { Rating } from '../';
 
 
 const ShowCard = ({ name, summary, image, rating }) => {
